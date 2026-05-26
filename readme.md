@@ -1,5 +1,5 @@
 # AFTER EXPERIMENT - CONCLUSIONS
-1) It is impossible to teach model to solve x^2 + y^2 with x and y out of training range directly by training it on many random x and y values.
+1) A generic neural network trained only on random examples from a limited numerical range does not reliably learn the underlying rule x^2 + y^2 with x and y out of training range directly by training it on many random x and y values.
    1.1) Instead, it should be taught the structure of exponentiation as an operation that applies universally to all numbers.
    ** 1.2) How to teach a model broader rule without hardcoding the structure of the rule or the rule itself? **
 2) If for x^2 + y^2 the broader domain is (anynumber)^2 and for (anynumber)^2 the broader domain is exponentiation in general, how far can we go with "broader" and do we end up with one or very few global domains that include every rule of how the world works?
